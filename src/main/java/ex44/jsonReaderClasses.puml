@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+jsonAsker->jsonReader: index of search
+jsonReader->search:index,gson file
+search->TrueSearch:index,file contents
+search<--TrueSearch: results
+jsonAsker<--search: results
+@enduml

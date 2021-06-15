@@ -1,6 +1,10 @@
 package ex43;
 import java.io.IOException;
 import java.util.*;
+/*
+ *  UCF COP3330 Summer 2021 Assignment 3 Solution
+ *  Copyright 2021 John Kelleher
+ */
 public class FileAsker {
     public static void main(String args[])throws IOException {
         /*

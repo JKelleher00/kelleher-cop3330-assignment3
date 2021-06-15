@@ -1,8 +1,10 @@
 package ex43;
 import java.io.*;
 import java.util.*;
-import org.json.simple.*;
-import org.json.simple.parser.*;
+/*
+ *  UCF COP3330 Summer 2021 Assignment 3 Solution
+ *  Copyright 2021 John Kelleher
+ */
 public class FileCreator {//no return, no testing required.
     /*
     send name/author to be made
