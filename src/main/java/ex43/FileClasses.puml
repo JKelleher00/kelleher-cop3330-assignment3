@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+FileAsker -> FileCreator: name of website, author, if they want js and css
+FileCreator -> create: website,author, js/css
+create->makeFirst: author/website name
+create->createjs: author name(if wanted)
+create->createcss: author name(if wanted)
+@enduml

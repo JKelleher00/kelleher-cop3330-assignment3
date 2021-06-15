@@ -1,0 +1,8 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+FileReading->NameSorter: String of names
+NameSorter->NameSort: The same string of names
+NameSort-->FileReading: The sorted list of names
+@enduml

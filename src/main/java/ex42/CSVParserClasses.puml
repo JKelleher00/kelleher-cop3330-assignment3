@@ -1,0 +1,10 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+CSVReader -> CSVParser: Initializing
+CSVReader -> CSVParser: Array of strings, comma delimited
+CSVParser -> ParseFile: Array of strings, comma delimited
+ParseFile <-- CSVReader: seperated 2d array of strings
+@enduml
