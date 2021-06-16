@@ -1,0 +1,10 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+Almostuseless->Replacer: old and new word
+Replacer->ReadnReplace: old and new word
+ReadnReplace<-inputfile:words
+Almostuseless<--ReadnReplace:fixed input
+@enduml

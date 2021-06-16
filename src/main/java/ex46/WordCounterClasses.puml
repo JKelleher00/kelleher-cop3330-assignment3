@@ -1,0 +1,10 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+46input->WordGetter:the words
+WordGetter->WordCounter:ArrayList of words
+WordCounter->counter:ArrayList of words
+WordGetter<--counter:counted arraylist
+@enduml
